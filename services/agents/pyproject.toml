@@ -1,0 +1,9 @@
+[project]
+name = "sentinelgraph-agents"
+version = "1.0.0"
+description = "Developer 2 LangGraph Multi-Agent Plane"
+dependencies = [
+    "pydantic>=2.0",
+    "langgraph>=0.0.10",
+    "pytest>=7.0.0"
+]

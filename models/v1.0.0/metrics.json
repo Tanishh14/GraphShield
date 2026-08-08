@@ -1,0 +1,38 @@
+{
+  "model_version": "graphsage-v1.0.0",
+  "trained_at": "2026-08-08T10:02:58.489431",
+  "primary_metric": "PR-AUC",
+  "GraphSAGE": {
+    "PR_AUC": 0.942,
+    "ROC_AUC": 0.968,
+    "F1_score": 0.935,
+    "Precision": 0.948,
+    "Recall": 0.923,
+    "FPR": 0.012,
+    "FNR": 0.077,
+    "latency_p50_ms": 14.2,
+    "latency_p95_ms": 28.5
+  },
+  "GAT": {
+    "PR_AUC": 0.931,
+    "ROC_AUC": 0.959,
+    "F1_score": 0.92,
+    "Precision": 0.93,
+    "Recall": 0.91,
+    "FPR": 0.018,
+    "FNR": 0.09,
+    "latency_p50_ms": 26.8,
+    "latency_p95_ms": 52.1
+  },
+  "XGBoost_Baseline": {
+    "PR_AUC": 0.845,
+    "ROC_AUC": 0.882,
+    "F1_score": 0.83,
+    "Precision": 0.85,
+    "Recall": 0.811,
+    "FPR": 0.045,
+    "FNR": 0.189,
+    "latency_p50_ms": 4.1,
+    "latency_p95_ms": 8.5
+  }
+}

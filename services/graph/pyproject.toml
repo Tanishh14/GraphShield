@@ -1,0 +1,8 @@
+[project]
+name = "sentinelgraph-graph"
+version = "1.0.0"
+description = "Developer 1 Neo4j & PyG Graph Service"
+dependencies = [
+    "pydantic>=2.0",
+    "pytest>=7.0.0"
+]

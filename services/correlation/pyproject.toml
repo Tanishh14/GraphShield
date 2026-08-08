@@ -1,0 +1,8 @@
+[project]
+name = "sentinelgraph-correlation"
+version = "1.0.0"
+description = "Developer 1 Windowed Correlation Service"
+dependencies = [
+    "pydantic>=2.0",
+    "pytest>=7.0.0"
+]

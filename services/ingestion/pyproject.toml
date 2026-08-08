@@ -1,0 +1,10 @@
+[project]
+name = "sentinelgraph-ingestion"
+version = "1.0.0"
+description = "Developer 1 Telemetry Ingestion Service"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "pydantic>=2.0",
+    "pytest>=7.0.0"
+]

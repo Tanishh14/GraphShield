@@ -1,0 +1,10 @@
+[project]
+name = "sentinelgraph-ml"
+version = "1.0.0"
+description = "Developer 1 GNN Model & Explainability Service"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "pydantic>=2.0",
+    "pytest>=7.0.0"
+]
